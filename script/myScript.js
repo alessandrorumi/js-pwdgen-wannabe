@@ -14,4 +14,8 @@ const userSurname = prompt('Qual è il tuo cognome?');
 const favoriteColor = prompt('Qual è il tuo colore preferito?');
 
 // Scrivi sulla pagina nomecognomecolorepreferito23
-document.getElementById("passwordGenerator").innerHTML = userName + userSurname + favoriteColor + 23;
+document.getElementById("passwordGenerator").innerHTML = "La tua password è:" + " " + userName + userSurname + favoriteColor + 23;
+
+// Oppure 
+
+// document.getElementById("passwordGenerator").innerHTML = `La tua password è: ${userName}${userSurname}${favoriteColor}23`;
